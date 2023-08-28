@@ -5,7 +5,7 @@ const TextInput = () => {
   return <div>
     <input onInput={(evt) => {
       $out.text = evt.target?.value
-    })/>
+    }}/>
     <div ref={$out}/>
   </div>
 }
